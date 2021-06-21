@@ -124,11 +124,12 @@ div.nosotrxs {
         margin-bottom: 2vh;
         img {
             max-width: 23vw;
+            transition: 1s;
             
         }
         img:hover {
             transform:scale(1.1,1.1);
-            transition-delay: 1s;
+            
         }
 
     }
@@ -151,6 +152,7 @@ div.nosotrxs {
         
         img {
             max-width: 22vw;
+            transition: 1s;
         }
         img:hover {
             transform:scale(1.1,1.1);
@@ -172,6 +174,11 @@ div.banner {
     h2 {
         color: $h2-color;
         padding-left: 10vw;
+    }
+}
+.tienda__productos {
+    span {
+        font-weight: bold;
     }
 }
 
@@ -302,8 +309,24 @@ div.banner {
             opacity: 0.6;
         }
     }
+    .tienda__productos {
+        margin: auto;
+        max-width: 98vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        div.card {
+            max-width: 10rem;
+            img {
+                margin: auto;
+                max-width: 30vw;
+            }
+        }
+        
+    }
 
-    
+    /*Footer*/
     .footer {
         display: flex;
         flex-direction: row;
@@ -429,6 +452,21 @@ div.banner {
         }
     }
     
+    .tienda__productos {
+        max-width: 98vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        div.card {
+            
+            img {
+                margin: auto;
+                max-width: 30vw;
+            }
+        }
+        
+    }
 
     
     .footer {
@@ -563,8 +601,24 @@ div.banner {
             padding-top: 2vh;
         }
     }
-    
-    
+    .tienda__productos {
+        max-width: 98vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        div.card {
+            
+            img {
+                max-width: 12vw;
+                margin: auto;
+            }
+        }
+        
+    }
+
+    /*Contacto*/
+
     .contacto__form {
         max-width: 57vw;
         padding-left: 2vw;
@@ -697,6 +751,21 @@ div.banner {
             padding-left: 2vw;
             padding-top: 2vh;
         }
+    }
+    .tienda__productos {
+        max-width: 98vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        div.card {
+            
+            img {
+                margin:auto;
+                max-width: 12vw;
+            }
+        }
+        
     }
         
     /*Footer*/

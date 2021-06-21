@@ -93,7 +93,8 @@ div.nosotrxs {
     margin-top: 3vh;
     margin-bottom: 2vh; }
     .adopta .adopta__filaUno img {
-      max-width: 23vw; }
+      max-width: 23vw;
+      transition: 1s; }
     .adopta .adopta__filaUno img:hover {
       transform: scale(1.1, 1.1); }
   .adopta ol.adopta__nombres {
@@ -110,7 +111,8 @@ div.nosotrxs {
     max-width: 88vw;
     margin-bottom: 2vh; }
     .adopta .adopta__filaDos img {
-      max-width: 22vw; }
+      max-width: 22vw;
+      transition: 1s; }
     .adopta .adopta__filaDos img:hover {
       transform: scale(1.1, 1.1); }
 
@@ -124,6 +126,9 @@ div.banner {
 .tienda__inicio h2 {
   color: #e079be;
   padding-left: 10vw; }
+
+.tienda__productos span {
+  font-weight: bold; }
 
 /*Contacto*/
 .contacto h2, .familiasFelices__titulo h2 {
@@ -205,28 +210,18 @@ div.banner {
       background-color: #e079be;
       opacity: 0.6; }
   .tienda__productos {
-    max-width: 100vw;
-    margin-left: 2vw;
-    margin-top: 2vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 2vw;
-    grid-row-gap: 1vh;
-    justify-items: center; }
-    .tienda__productos div.productos {
-      width: 25vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 5vh; }
-      .tienda__productos div.productos img {
-        width: 24vw;
-        margin-bottom: 2vh;
-        margin: auto; }
-    .tienda__productos .btn-primary {
-      max-width: 24vw;
-      padding-left: 1vw; }
+    margin: auto;
+    max-width: 98vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .tienda__productos div.card {
+      max-width: 10rem; }
+      .tienda__productos div.card img {
+        margin: auto;
+        max-width: 30vw; }
+  /*Footer*/
   .footer {
     display: flex;
     flex-direction: row;
@@ -314,31 +309,14 @@ div.banner {
       background-color: #e079be;
       opacity: 0.6; }
   .tienda__productos {
-    max-width: 95vw;
-    margin-left: 2vw;
-    margin-top: 2vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 2vw;
-    grid-row-gap: 1vh;
-    justify-items: center; }
-    .tienda__productos div.productos {
-      width: 22vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 5vh;
-      border: solid;
-      border-color: #e079be;
-      border-width: 6px 6px 6px 6px; }
-      .tienda__productos div.productos img {
-        width: 20vw;
-        margin-bottom: 2vh;
-        margin: auto; }
-    .tienda__productos .btn-primary {
-      max-width: 20vw;
-      padding-left: 1vw; }
+    max-width: 98vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .tienda__productos div.card img {
+      margin: auto;
+      max-width: 30vw; }
   .footer {
     display: flex;
     flex-direction: row;
@@ -428,31 +406,15 @@ div.banner {
       padding-left: 2vw;
       padding-top: 2vh; }
   .tienda__productos {
-    max-width: 90vw;
-    margin-left: 5vw;
-    margin-top: 5vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 2vw;
-    grid-row-gap: 1vh;
-    justify-items: center; }
-    .tienda__productos div.productos {
-      width: 20vw;
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 5vh;
-      border: solid;
-      border-color: #e079be;
-      border-width: 6px 6px 6px 6px; }
-      .tienda__productos div.productos img {
-        max-width: 14vw;
-        margin-bottom: 2vh;
-        margin: auto; }
-    .tienda__productos .btn-primary {
+    max-width: 98vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .tienda__productos div.card img {
       max-width: 12vw;
-      padding-left: 1vw;
-      margin-bottom: 2vh; }
+      margin: auto; }
+  /*Contacto*/
   .contacto__form {
     max-width: 57vw;
     padding-left: 2vw;
@@ -549,31 +511,14 @@ div.banner {
       padding-left: 2vw;
       padding-top: 2vh; }
   .tienda__productos {
-    max-width: 90vw;
-    margin-left: 5vw;
-    margin-top: 5vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 2vw;
-    grid-row-gap: 1vh;
-    justify-items: center; }
-    .tienda__productos div.productos {
-      width: 20vw;
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 5vh;
-      border: solid;
-      border-color: #e079be;
-      border-width: 6px 6px 6px 6px; }
-      .tienda__productos div.productos img {
-        max-width: 14vw;
-        margin-bottom: 2vh;
-        margin: auto; }
-    .tienda__productos .btn-primary {
-      max-width: 12vw;
-      padding-left: 1vw;
-      margin-bottom: 2vh; }
+    max-width: 98vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .tienda__productos div.card img {
+      margin: auto;
+      max-width: 12vw; }
   /*Footer*/
   .footer {
     display: flex;
