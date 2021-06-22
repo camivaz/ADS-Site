@@ -1,7 +1,7 @@
 {
   "name": "ads-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Organización rescatista de animales - Sin fines de lucro",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -225,7 +225,7 @@ div.banner {
 .footer {
     display: flex;
     flex-direction: row;
-    margin-top: 8vh;
+    margin-top: 6vh;
     border-color: $h2-color;
     border-style: double;
     border-width: 4px 0px 0px 0px;
@@ -233,7 +233,7 @@ div.banner {
         margin-top: 3vh;
         list-style: none;
         li {
-            margin-bottom: 2vh;
+            margin-bottom: 1vh;
             a {
             text-decoration: none;
             }
@@ -767,20 +767,22 @@ div.banner {
         img {
             max-width: 20vw;
             max-height: 200px;
-            padding-left: 2vw;
+            
         }
         ul {
-            margin-left: 15vw;
+            margin-left: 17vw;
             
         }
    
         
         div {
             margin-top: 3vh;
-            margin-left: 8vw;
+            margin-left: 10vw;
             padding-right: 2vw;
+            max-width: 21vw;
             h2 {
                 color: $h2-color;
+                margin-bottom: 0px;
             }
        
             img {
