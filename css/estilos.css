@@ -153,6 +153,22 @@ div.banner {
     margin: auto;
     padding: 0; }
 
+/*Footer*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8vh;
+  border-color: #e079be;
+  border-style: double;
+  border-width: 4px 0px 0px 0px; }
+  .footer ul {
+    margin-top: 3vh;
+    list-style: none; }
+    .footer ul li {
+      margin-bottom: 2vh; }
+      .footer ul li a {
+        text-decoration: none; }
+
 @media only screen and (max-width: 480px) {
   /*Inicio*/
   .main__imagenes {
@@ -223,25 +239,15 @@ div.banner {
         max-width: 30vw; }
   /*Footer*/
   .footer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8vh;
-    border-color: #e079be;
-    border-style: double;
-    border-width: 4px 0px 0px 0px;
     width: 100vw;
     justify-content: space-between; }
     .footer .footer__desc {
       display: none; }
-    .footer ul {
-      margin-top: 4vh;
-      list-style: none; }
-      .footer ul li {
-        text-decoration: none; }
     .footer .footer__logo {
       display: none; }
     .footer div {
-      margin-left: 10vw; }
+      margin-left: 10vw;
+      padding-top: 3vh; }
       .footer div h2 {
         color: #e079be; }
       .footer div p {
@@ -317,26 +323,18 @@ div.banner {
     .tienda__productos div.card img {
       margin: auto;
       max-width: 30vw; }
+  /*Footer*/
   .footer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8vh;
-    border-color: #e079be;
-    border-style: double;
-    border-width: 4px 0px 0px 0px;
-    width: 100vw;
-    justify-content: space-between; }
+    width: 98vw;
+    justify-content: space-between;
+    margin-left: 1vw; }
     .footer .footer__desc {
       display: none; }
-    .footer ul {
-      margin-top: 4vh;
-      list-style: none; }
-      .footer ul li {
-        text-decoration: none; }
     .footer .footer__logo {
       display: none; }
     .footer div {
-      margin-left: 10vw; }
+      margin-left: 10vw;
+      padding-top: 3vh; }
       .footer div h2 {
         color: #e079be; }
       .footer div p {
@@ -423,30 +421,18 @@ div.banner {
     max-height: 500px; }
   /*Footer*/
   .footer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8vh;
-    border-color: #e079be;
-    border-style: double;
-    border-width: 4px 0px 0px 0px;
-    width: 100vw; }
+    width: 98vw;
+    margin-left: 1vw; }
     .footer p {
       margin-top: 4vh;
       padding-left: 4vw;
       width: 20vw; }
-    .footer ul {
-      margin-top: 3vh;
-      list-style: none; }
-      .footer ul li {
-        margin-bottom: 2vh; }
-        .footer ul li a {
-          text-decoration: none; }
     .footer img {
       max-width: 20vw;
       max-height: 180px;
       padding-left: 1vw; }
     .footer div {
-      margin-left: 3vw;
+      margin-left: 8vw;
       margin-top: 3vh;
       padding-right: 2vw; }
       .footer div h2 {
@@ -525,12 +511,6 @@ div.banner {
       max-width: 12vw; }
   /*Footer*/
   .footer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 8vh;
-    border-color: #e079be;
-    border-style: double;
-    border-width: 4px 0px 0px 0px;
     width: 97vw;
     margin-left: 1vw; }
     .footer .footer__desc {
@@ -542,13 +522,7 @@ div.banner {
       max-height: 200px;
       padding-left: 2vw; }
     .footer ul {
-      margin-left: 15vw;
-      margin-top: 3vh;
-      list-style: none; }
-      .footer ul li {
-        margin-bottom: 2vh; }
-        .footer ul li a {
-          text-decoration: none; }
+      margin-left: 15vw; }
     .footer div {
       margin-top: 3vh;
       margin-left: 8vw;
