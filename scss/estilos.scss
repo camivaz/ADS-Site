@@ -1,5 +1,5 @@
 @import "fonts";
-@import "navMap";
+
 
 $li_font: 'Merriweather', serif;
 $h2-color: rgb(224, 121, 190);
@@ -23,18 +23,15 @@ $h2-color: rgb(224, 121, 190);
 }
 /*Nav Bar*/
 
-
-@each $name-color, $bgcolor in $colors {
-    .nav-item--#{$name-color} {
-        background-color: $bgcolor;
-    }
- }
+.navbar {
+    background-color: #f7e5f1;
+}
 
 
 /*Inicio*/
 .main__titulo {
     h1 {
-        color: $h2-color;
+        color: cadetblue;
         font-family: $li_font;
                
     }
@@ -71,7 +68,7 @@ div.nosotrxs {
 
     h2 {
         padding-left: 10vw;
-        color: $h2-color;
+        color: cadetblue;
     }
     .nosotrxs__imagenes {
         margin-top: 2vh;
@@ -109,7 +106,7 @@ div.nosotrxs {
     display: block;
     margin-top: 2vh;
     h2 {
-        color: $h2-color;
+        color: cadetblue;
         margin-bottom: 5vh;
         padding-left: 10vw;
     }
@@ -172,7 +169,7 @@ div.banner {
 /*Tienda*/
 .tienda__inicio {
     h2 {
-        color: $h2-color;
+        color: cadetblue;
         padding-left: 10vw;
     }
 }
@@ -190,7 +187,7 @@ div.banner {
 .contacto {
     h2 {
         padding-left: 8vw;
-        color: $h2-color;
+        color: cadetblue;
         margin-bottom: 2vh;
     }
 }

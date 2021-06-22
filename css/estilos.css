@@ -13,27 +13,15 @@
   margin-left: 60vw; }
 
 /*Nav Bar*/
-.nav-item--inicio {
-  background-color: #f7deef; }
-
-.nav-item--nosotrxs {
-  background-color: #efbddf; }
-
-.nav-item--adopta {
-  background-color: #ecacd5; }
-
-.nav-item--tienda {
-  background-color: #e89cce; }
-
-.nav-item--contacto {
-  background-color: #e07bbe; }
+.navbar {
+  background-color: #f7e5f1; }
 
 /*Inicio*/
 .main__titulo {
   padding-left: 4vw;
   margin-bottom: 5vh; }
   .main__titulo h1 {
-    color: #e079be;
+    color: cadetblue;
     font-family: "Merriweather", serif; }
 
 .main__contenido {
@@ -56,7 +44,7 @@ div.nosotrxs {
   justify-items: center; }
   div.nosotrxs h2 {
     padding-left: 10vw;
-    color: #e079be; }
+    color: cadetblue; }
   div.nosotrxs .nosotrxs__imagenes {
     margin-top: 2vh;
     display: flex;
@@ -81,7 +69,7 @@ div.nosotrxs {
   display: block;
   margin-top: 2vh; }
   .adopta h2 {
-    color: #e079be;
+    color: cadetblue;
     margin-bottom: 5vh;
     padding-left: 10vw; }
   .adopta .adopta__filaUno {
@@ -124,7 +112,7 @@ div.banner {
 
 /*Tienda*/
 .tienda__inicio h2 {
-  color: #e079be;
+  color: cadetblue;
   padding-left: 10vw; }
 
 .tienda__productos span {
@@ -133,7 +121,7 @@ div.banner {
 /*Contacto*/
 .contacto h2, .familiasFelices__titulo h2 {
   padding-left: 8vw;
-  color: #e079be;
+  color: cadetblue;
   margin-bottom: 2vh; }
 
 .familiasFelices {
