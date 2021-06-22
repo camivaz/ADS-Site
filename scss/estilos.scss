@@ -636,27 +636,34 @@ div.banner {
         border-style: double;
         border-width: 4px 0px 0px 0px;
         width: 100vw;
-        justify-content: space-between;
+        
         p {
             margin-top: 4vh;
             padding-left: 4vw;
             width: 20vw;
         }
         ul {
-            margin-top: 4vh;
+            margin-top: 3vh;
             li {
-                text-decoration: none;
                 margin-bottom: 2vh;
+                text-decoration: none;
+                a {
+                    text-decoration: none;
+                }
             }
             list-style: none;
         }
    
         img {
             max-width: 20vw;
+            max-height: 180px;
+            padding-left: 1vw;
         
         }
         div {
-            margin-left: 10vw;
+            margin-left: 8vw;
+            margin-top: 3vh;
+            padding-right: 2vw;
             h2 {
                 color: $h2-color;
             }
@@ -778,29 +785,34 @@ div.banner {
         border-width: 4px 0px 0px 0px;
         width: 97vw;
         margin-left: 1vw;
-        justify-content: space-between;
-    
+            
         .footer__desc {
-            margin-top: 3vh;
+            margin-top: 4vh;
             margin-left: 2vw;
             width: 20vw;
         }
+        img {
+            max-width: 20vw;
+            max-height: 200px;
+            padding-left: 2vw;
+        }
         ul {
+            margin-left: 15vw;
             margin-top: 3vh;
             li {
-                text-decoration: none;
                 margin-bottom: 2vh;
+                a {
+                    text-decoration: none;
+                }
             }
             list-style: none;
         }
    
-        img {
-            max-width: 20vw;
-            max-height: 250px;
-        }
+        
         div {
             margin-top: 3vh;
-        
+            margin-left: 8vw;
+            padding-right: 2vw;
             h2 {
                 color: $h2-color;
             }

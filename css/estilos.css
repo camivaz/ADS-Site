@@ -429,22 +429,26 @@ div.banner {
     border-color: #e079be;
     border-style: double;
     border-width: 4px 0px 0px 0px;
-    width: 100vw;
-    justify-content: space-between; }
+    width: 100vw; }
     .footer p {
       margin-top: 4vh;
       padding-left: 4vw;
       width: 20vw; }
     .footer ul {
-      margin-top: 4vh;
+      margin-top: 3vh;
       list-style: none; }
       .footer ul li {
-        text-decoration: none;
         margin-bottom: 2vh; }
+        .footer ul li a {
+          text-decoration: none; }
     .footer img {
-      max-width: 20vw; }
+      max-width: 20vw;
+      max-height: 180px;
+      padding-left: 1vw; }
     .footer div {
-      margin-left: 10vw; }
+      margin-left: 3vw;
+      margin-top: 3vh;
+      padding-right: 2vw; }
       .footer div h2 {
         color: #e079be; }
       .footer div p {
@@ -528,23 +532,27 @@ div.banner {
     border-style: double;
     border-width: 4px 0px 0px 0px;
     width: 97vw;
-    margin-left: 1vw;
-    justify-content: space-between; }
+    margin-left: 1vw; }
     .footer .footer__desc {
-      margin-top: 3vh;
+      margin-top: 4vh;
       margin-left: 2vw;
       width: 20vw; }
+    .footer img {
+      max-width: 20vw;
+      max-height: 200px;
+      padding-left: 2vw; }
     .footer ul {
+      margin-left: 15vw;
       margin-top: 3vh;
       list-style: none; }
       .footer ul li {
-        text-decoration: none;
         margin-bottom: 2vh; }
-    .footer img {
-      max-width: 20vw;
-      max-height: 250px; }
+        .footer ul li a {
+          text-decoration: none; }
     .footer div {
-      margin-top: 3vh; }
+      margin-top: 3vh;
+      margin-left: 8vw;
+      padding-right: 2vw; }
       .footer div h2 {
         color: #e079be; }
       .footer div img {
