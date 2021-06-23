@@ -160,14 +160,15 @@ div.banner {
 @media only screen and (max-width: 480px) {
   /*Inicio*/
   .main__imagenes {
-    max-width: 340px;
-    display: block; }
-    .main__imagenes img.show1 {
-      margin-left: 30px;
-      box-shadow: 8px 8px 5px grey; }
-    .main__imagenes img.noShow {
+    max-width: 96vw;
+    display: block;
+    margin-left: 2vw; }
+    .main__imagenes .perro_1 {
+      box-shadow: 8px 8px 5px grey;
+      margin-left: 5vw; }
+    .main__imagenes .gatos {
       display: none; }
-    .main__imagenes img.show2 {
+    .main__imagenes .perro_2 {
       display: none; }
   /*Nosotrxs*/
   div.nosotrxs__carrousel {
@@ -246,17 +247,18 @@ div.banner {
 @media only screen and (min-width: 481px) and (max-width: 770px) {
   /*Inicio*/
   .main__imagenes {
-    max-width: 620px;
+    max-width: 94vw;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    margin-left: 50px; }
+    margin-left: 5vw; }
     .main__imagenes img {
-      box-shadow: 8px 8px 5px grey; }
-    .main__imagenes img.show2 {
-      margin-left: 20px; }
-    .main__imagenes img.noShow {
+      box-shadow: 8px 8px 5px grey;
+      max-width: 40vw; }
+    .main__imagenes .perro_2 {
+      margin: auto; }
+    .main__imagenes .gatos {
       display: none; }
   /*Nosotrxs*/
   .nosotrxs__carrousel {
@@ -342,7 +344,7 @@ div.banner {
     .main__imagenes img {
       margin-left: 50px;
       box-shadow: 10px 10px 5px grey; }
-    .main__imagenes img.noShow {
+    .main__imagenes .gatos {
       display: none; }
   /*Nosotrxs*/
   .nosotrxs__carrousel {

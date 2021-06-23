@@ -247,23 +247,22 @@ div.banner {
 @media only screen and (max-width: 480px){
     /*Inicio*/
     .main__imagenes {
-        max-width: 340px;
+        max-width: 96vw;
         display: block;
-        img.show1 {
-            margin-left: 30px;
+        margin-left: 2vw;
+        .perro_1 {         
             box-shadow:  8px 8px 5px grey;
+            margin-left: 5vw;
         }
-
-        img.noShow {
+        .gatos  {
             display: none;
-        }
-        img.show2 {
-            display:none;
+        }   
+        .perro_2 {
+            display: none;
         }
          
     }
     /*Nosotrxs*/
-    
     
     div.nosotrxs__carrousel {
         width:90vw;
@@ -271,7 +270,6 @@ div.banner {
         margin-left: 5vw;
     }
    
-
     /*Adopta*/
 
     li.adopta__nombres {
@@ -379,21 +377,22 @@ div.banner {
 @media only screen and (min-width: 481px) and (max-width:770px){
     /*Inicio*/
     .main__imagenes {
-        max-width: 620px;
+        max-width: 94vw;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
-        margin-left: 50px;
+        margin-left: 5vw;
 
         img {
             box-shadow:  8px 8px 5px grey;
+            max-width: 40vw;
         }
-        img.show2 {
-            margin-left: 20px;
+        .perro_2 {
+            margin: auto;
         }
 
-        img.noShow {
+        .gatos {
             display: none;
         }
          
@@ -524,7 +523,7 @@ div.banner {
             margin-left: 50px;
             box-shadow:  10px 10px 5px grey;
         }
-        img.noShow  {
+        .gatos  {
             display: none;
         }
         
