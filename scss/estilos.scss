@@ -4,6 +4,10 @@
 $li_font: 'Merriweather', serif;
 $h2-color: rgb(224, 121, 190);
 
+p, h1, h2, h5, a, li, label {
+    font-family: $li_font;    
+}
+
 /*Animacion*/
 
 .animacion {
@@ -58,9 +62,9 @@ $h2-color: rgb(224, 121, 190);
     }
 }
 
-/*Nosotrxs*/
+/*Nosotros*/
 
-div.nosotrxs {
+div.nosotros {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,17 +74,17 @@ div.nosotrxs {
         padding-left: 10vw;
         color: cadetblue;
     }
-    .nosotrxs__imagenes {
+    .nosotros__imagenes {
         margin-top: 2vh;
         display:flex;
         flex-direction: row;
         
-        .nosotrxs__imagenes__crew {
+        .nosotros__imagenes__crew {
             max-width: 57vw;
             padding-left: 3vw;
             
         }
-        .nosotrxs__imagenes__logo {
+        .nosotros__imagenes__logo {
             max-width: 37vw;
             padding-right: 2vw;
             padding-left: 3vw;
@@ -90,7 +94,7 @@ div.nosotrxs {
     
     
 
-    .nosotrxs__descripcion {
+    .nosotros__descripcion {
         max-width: 90vw;
         p {
             padding-left: 30px;
@@ -104,58 +108,38 @@ div.nosotrxs {
 
 .adopta {
     display: block;
-    margin-top: 2vh;
+    margin-top: 2vh; 
     h2 {
         color: cadetblue;
         margin-bottom: 5vh;
         padding-left: 10vw;
     }
-   
-    .adopta__filaUno {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        max-width: 92vw;
-        padding-left: 4vw;
-        margin-top: 3vh;
-        margin-bottom: 2vh;
+    .card-group {
+        margin: auto;
+        width: 96vw;
+        justify-content: space-between;
         img {
-            max-width: 23vw;
+            margin: auto;
             transition: 1s;
-            
         }
         img:hover {
             transform:scale(1.1,1.1);
-            
         }
-
+        h5 {
+            margin:auto;
+            text-align: center;
+        }  
     }
-    ol.adopta__nombres {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-bottom: 5vh;
-        padding-left: 2vw;
+    .uno img {
+        max-width: 22vw;
+            
     }
-
-    .adopta__filaDos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding-left: 6vw;
-        max-width: 88vw;
-        margin-bottom: 2vh;
+    
+    .dos img {
+        max-width: 16vw;
         
-        img {
-            max-width: 22vw;
-            transition: 1s;
-        }
-        img:hover {
-            transform:scale(1.1,1.1);
-        }
     }
-
+    
 }
 
 div.banner {
@@ -226,9 +210,9 @@ div.banner {
     display: flex;
     flex-direction: row;
     margin-top: 6vh;
-    border-color: $h2-color;
-    border-style: double;
-    border-width: 4px 0px 0px 0px;
+    background-color: #f7e5f1;
+    
+    
     ul {
         margin-top: 3vh;
         list-style: none;
@@ -240,8 +224,6 @@ div.banner {
         }
     }
 }
-
-
 
 
 @media only screen and (max-width: 480px){
@@ -262,9 +244,9 @@ div.banner {
         }
          
     }
-    /*Nosotrxs*/
+    /*Nosotros*/
     
-    div.nosotrxs__carrousel {
+    div.nosotros__carrousel {
         width:90vw;
         padding-left: 10vw;
         margin-left: 5vw;
@@ -272,15 +254,35 @@ div.banner {
    
     /*Adopta*/
 
-    li.adopta__nombres {
-        list-style-type: none;
-        font-family: $li_font;
-        font-size: 4vw;
-            
-            
-    }
+    
     div.banner {
         max-height: 8vh;
+    }
+
+    .card-group {
+        margin: auto;
+        width: 96vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        img {
+            margin: auto;
+            transition: 1s;
+        }
+        img:hover {
+            transform:scale(1.1,1.1);
+        }
+        h5 {
+            margin:auto;
+            text-align: center;
+            font-size: 0.75rem;
+        }  
+    }
+    .uno img {
+        max-width: 20vw;
+    }
+    .dos img {
+        max-width: 20vw;
     }
 
     .requisitos {
@@ -317,7 +319,7 @@ div.banner {
         }
         p {
             width: 88vw;
-            margin-left: 17vw;
+            margin: auto;
             padding-right: 5vw;
             padding-left: 2vw;
             color: black;
@@ -326,14 +328,14 @@ div.banner {
         }
     }
     .tienda__productos {
-        margin: auto;
-        max-width: 98vw;
+        margin-top: 5vh;
+        max-width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         div.card {
-            max-width: 10rem;
+            max-width: 40vw;
             img {
                 margin: auto;
                 max-width: 30vw;
@@ -344,15 +346,12 @@ div.banner {
 
     /*Footer*/
     .footer {
-        
-        width: 100vw;
-        justify-content: space-between;
-    
+        width: 100%;
+        justify-content: space-between; 
         .footer__desc {
             display: none;
         }
-        
-   
+          
         .footer__logo {
             display: none;
             
@@ -397,8 +396,8 @@ div.banner {
         }
          
     }
-    /*Nosotrxs*/
-    .nosotrxs__carrousel {
+    /*Nosotros*/
+    .nosotros__carrousel {
         width: 90vw;
         margin-bottom: 8vh;
         margin-left: 5vw;
@@ -406,13 +405,33 @@ div.banner {
     }
 
     /*Adopta*/
-
-    li.adopta__nombres {
-        list-style-type: none;
-        font-family: $li_font;
-        font-size: 2vw;          
-    
+    .card-group {
+        margin: auto;
+        width: 96vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        img {
+            margin: auto;
+            transition: 1s;
+        }
+        img:hover {
+            transform:scale(1.1,1.1);
+        }
+        h5 {
+            margin:auto;
+            text-align: center;
+            font-size: 0.75rem;
+        }  
     }
+    .uno img {
+        max-width: 22vw;
+    }
+    .dos img {
+        max-width: 20vw;
+    }
+
+    
     div.banner {
         max-height: 10vh;
     }
@@ -459,13 +478,13 @@ div.banner {
     }
     
     .tienda__productos {
-        max-width: 98vw;
+        max-width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         div.card {
-            
+            max-width: 30vw;
             img {
                 margin: auto;
                 max-width: 30vw;
@@ -477,7 +496,7 @@ div.banner {
     
     .footer {
         
-        width: 98vw;
+        width: 100%;
         justify-content: space-between;
         margin-left: 1vw;
         .footer__desc {
@@ -531,8 +550,8 @@ div.banner {
     }
 
     
-    /*Nosotrxs*/
-    .nosotrxs__carrousel {
+    /*Nosotros*/
+    .nosotros__carrousel {
         width: 70vw;
         margin-bottom: 8vh;
         margin-left: 15vw;
@@ -541,12 +560,7 @@ div.banner {
    
     /*Adopta*/
 
-    li.adopta__nombres {
-        list-style-type: none;
-        font-family: $li_font;
-        font-size: 2vw;          
     
-    }
     .requisitos {
         margin-top: 10vh;
     
@@ -567,7 +581,7 @@ div.banner {
             padding-left: 0;
             
         }
-        p {font-size: 2vw;}
+        
        
     }
 
@@ -597,13 +611,13 @@ div.banner {
         }
     }
     .tienda__productos {
-        max-width: 98vw;
+        max-width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         div.card {
-            
+            max-width: 20vw;
             img {
                 max-width: 12vw;
                 margin: auto;
@@ -624,8 +638,8 @@ div.banner {
 
     /*Footer*/
     .footer {
-        width: 98vw;
-        margin-left: 1vw;
+        width: 100%;
+        
         p {
             margin-top: 4vh;
             padding-left: 4vw;
@@ -670,9 +684,9 @@ div.banner {
          
     }
 
-    /*Nosotrxs*/
+    /*Nosotros*/
 
-    .nosotrxs__carrousel {
+    .nosotros__carrousel {
         width: 70vw;
         height: 90vh;
         margin-bottom: 8vh;
@@ -683,12 +697,7 @@ div.banner {
    
 
     /*Adopta*/
-    li.adopta__nombres {
-        list-style-type: none;
-        font-family: $li_font;
-        font-size: 2vw;          
     
-    }
     .requisitos {
         margin-top: 10vh;
     
@@ -711,7 +720,7 @@ div.banner {
             padding-left: 0.5vw;
             
         }
-        p {font-size: 1.5vw;}
+        
        
     }
     /*Tienda*/
@@ -736,28 +745,30 @@ div.banner {
             padding-right: 20vw;
             padding-left: 2vw;
             padding-top: 2vh;
+            font-size: 0.95rem;
         }
     }
     .tienda__productos {
-        max-width: 98vw;
+        max-width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         div.card {
-            
+            max-width: 20vw;
             img {
                 margin:auto;
                 max-width: 12vw;
             }
         }
         
+        
     }
         
     /*Footer*/
     .footer {
-        width: 97vw;
-        margin-left: 1vw;
+        width: 100%;
+       
         .footer__desc {
             margin-top: 4vh;
             margin-left: 2vw;
