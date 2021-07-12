@@ -97,6 +97,8 @@ div.banner {
   overflow: hidden;
   max-height: 8vh;
   opacity: 0.6; }
+  div.banner img {
+    width: 100vw; }
 
 /*Tienda*/
 .tienda__inicio h2 {
